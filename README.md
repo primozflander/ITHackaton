@@ -1,4 +1,4 @@
-# Project Title
+# Maximum pixel width calculator
 
 First virtual IT hackaton - Calculation of maximum pixel width for led displays
 

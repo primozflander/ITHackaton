@@ -11,7 +11,11 @@ These instructions will get you a copy of the project up and running on your loc
 Follow [instructions](https://wiki.python.org/moin/BeginnersGuide/Download) to download and install Python 3.x.
 
 ```
-Python 3.x
+Python 2.x
+
+or
+
+Python 3.x (recommended)
 ```
 
 ## Deployment
@@ -27,7 +31,11 @@ Update Vhodi.txt file with examples in format (lcd_width lcd_height string)
 To start the program, open the command prompt, move to project directory and type
 
 ```
-$ py IThekaton.py
+$ python IThekaton.py (if using python 2.x)
+
+or
+
+$ python3 IThekaton.py
 ```
 
 Command prompt will output results for each example in file Vhodi.txt and corresponding file Izhodi.txt will be generated in project directory

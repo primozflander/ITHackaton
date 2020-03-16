@@ -30,13 +30,12 @@ def calculate(example):
                     return pix - 1
 
 if __name__ == "__main__":
-
-    f = open("Vhodi.txt", "r")
+    f = open("vhodi.txt", "r")
     lines = f.read().strip().split('\n')
     f.close()
-    f = open("Izhodi.txt", "w")
+    f = open("izhodi.txt", "w")
     for example in lines:
         result = calculate(example)
         f.write(str(result) + "\n")
-        print("Example:",example,"| max_pix =",result)
+        print("Example:", example, "| max_pix =", result)
     f.close()
